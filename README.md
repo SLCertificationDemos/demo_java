@@ -8,7 +8,9 @@ To run the backend services, execute from the command line:
 docker-compose up --build
 ```
 
-Wait till the servers will be build and docker will run
+Wait till the servers will be build and docker will run.
+
+Open in browser http://localhost:9080/
 
 To run the frontend application, see the [forontend/README.md](frontend/README.md):
 

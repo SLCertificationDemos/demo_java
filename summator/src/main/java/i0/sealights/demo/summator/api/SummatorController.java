@@ -25,14 +25,8 @@ public class SummatorController {
     public Result evaluateExpression(
         final @RequestParam(name = "first", required = false) String first,
         final @RequestParam(name = "ratio", required = false) String ratio,
-        final @RequestParam(name = "count", required = false) String count,
-        HttpServletRequest servletRequest
+        final @RequestParam(name = "count", required = false) String count
     ) {
-
-        // todo: need for fast debugging - can be removed after demo
-        servletRequest.getHeaderNames().asIterator().forEachRemaining(element -> {
-            System.out.println("HEADER: " + element + " > " + servletRequest.getHeader(element));
-        });
 
         validateArguments(first, ratio, count);
         final double result = summatorService.sum(
