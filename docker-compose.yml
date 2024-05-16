@@ -1,6 +1,7 @@
 version: "3.9"
 services:
     gateway:
+        platform: linux/amd64
         env_file:
         - parameters.env
         container_name: gateway-server
@@ -10,6 +11,7 @@ services:
         networks:
         - ftv-demo-network
     calculator:
+        platform: linux/amd64
         env_file:
         - parameters.env
         container_name: calculator-server
@@ -19,6 +21,7 @@ services:
         networks:
         - ftv-demo-network
     summator:
+        platform: linux/amd64
         env_file:
         - parameters.env
         container_name: summator-server
