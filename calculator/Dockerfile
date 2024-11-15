@@ -1,12 +1,16 @@
-FROM gradle:7.6.0-jdk11-alpine AS gradle
+FROM gradle:8.7.0-jdk17-alpine AS gradle
+# FROM gradle:7.6.0-jdk11-alpine AS gradle
 
 COPY ./src src/
 COPY ./settings.gradle settings.gradle
 COPY ./build.gradle build.gradle
 
+ENV GRADLE_OPTS=-Xmx1024m
+
 RUN gradle clean build
 
-FROM amazoncorretto:11-alpine-jdk
+FROM amazoncorretto:17-alpine-jdk
+# FROM amazoncorretto:11-alpine-jdk
 
 RUN mkdir /opt/app
 WORKDIR /opt/app
