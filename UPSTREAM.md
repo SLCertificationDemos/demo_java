@@ -12,7 +12,7 @@ This project is a fork of https://github.com/gregoryfuta/ftv-demo-backend and wi
 
 - (upstream)
 - https://github.com/gregoryfuta/ftv-demo-backend/tree/poc/samantha-n-katerina
-- https://github.com/SLCertificationDemos/ftv-demo-backend (fork)
+- https://github.com/SLCertificationDemos/demo-java (fork) <--- repo renamed from "ftv-demo-backend"
 
 ## Branch mapping and description
 

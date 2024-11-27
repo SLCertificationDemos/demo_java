@@ -1,4 +1,4 @@
-rootProject.name = 'ftv-demo-backend'
+rootProject.name = 'demo_java'
 
 include("gateway")
 include("calculator")
