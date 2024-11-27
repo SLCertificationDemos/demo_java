@@ -1,4 +1,15 @@
-# Backend for Sealights CD agent demo
+# Java Project -- for SL Demo
+
+This application is a Java-based backend service that includes a gateway proxy to other services like a calculator and summator, exposing APIs prefixed with /api. It uses Docker for containerization and can be run using docker-compose.
+
+## How to use this project
+
+Each branch has a purpose:
+
+`baseline` -- this is the default branch. This branch includes the code with instructions for running it using docker-compose. It does not include the SeaLights implementation.
+
+Before implementing SeaLights, you have to have a project that works *without* SeaLights.  This is that project.
+
 
 ## TL;DR
 
@@ -36,6 +47,9 @@ Close running containers with
 docker-compose down
 ```
 
+---------
+
+*What follows is the longer explanation for running the app*
 
 ## Prepare and run the applications
 
@@ -128,7 +142,7 @@ The gateway application is a proxy to Summator and Calsulator. It exposes the sa
 Form the command line type
 
 ```shell
-cd calculator
+cd gateway
 docker build -t sealights/backend-demo-gateway .
 docker run -it  -p 9080:8080 sealights/backend-demo-gateway
 ```
