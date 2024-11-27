@@ -1,5 +1,6 @@
 # Ignore sensitive data
 *.env
+parameters.env
 !example.parameters.env
 
 # Ignore Gradle project-specific cache directory
