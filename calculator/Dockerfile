@@ -18,6 +18,10 @@ WORKDIR /opt/app
 # Copy built spring application
 COPY --from=gradle /home/gradle/build/libs/calculator-0.0.1-SNAPSHOT.jar ./calculator.jar
 
+# SEALIGHTS -- Download CD Agent
+RUN wget -nv  https://agents.sealights.co/sl-cd-agent/sl-cd-agent-latest.zip
+RUN unzip -oq sl-cd-agent-latest.zip
+
 # Copy run script
 COPY --chmod=777 scripts/run_app.sh run_app.sh
 
