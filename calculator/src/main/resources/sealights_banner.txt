@@ -1,20 +1,11 @@
-                                                                                                                                
-                                                                                                                                
-    Spring Boot Application  CALCULATOR                    ,@@#  %
-    made by Sealights                                    @@@       ,
-                                                        *@@@         ,                                                          
-             @@@@@@@@@                                 #@@@           *                   @@/                                   
-           @@@,     @@.                               *@@@         ...,                   @@@/                                  
-          @@@@      .                                 @@@(          ,.                   @@@@             *@@@.                 
-          #@@@@/                                     @@@@                                @@@&             @@@@                  
-            @@@@@         @@@@,@@@     &@@@,@@@@.    @@@(        @@@&      *@@@*&@@@&   @@@@.@@@@@@@.    &@@@@@@@  #@@@* &@@    
-             &@@@@@     @@@@   @@@   @@@@   &@@@    @@@@        @@@@,    @@@@    @@@@  ,@@@@@   @@@@(    @@@@      @@@@   @.    
-               @@@@@   @@@@  @@@@  ,@@@@   .@@@@    @@@@       *@@@@    @@@@    @@@@(  @@@@@    @@@@    @@@@,      ,@@@@#       
-       @       @@@@@  @@@@@@@*     @@@@    @@@@    .@@@@      ,@@@@    @@@@.   @@@@@  ,@@@@    @@@@%   *@@@@     @&  @@@@@      
-      @@,     *@@@@   @@@@@    /@ .@@@@  ,@@@@@   @@@@@@    @@@@@@@  (@@@@@   @@@@@(  @@@@.    @@@@   @@@@@%  *@@@    @@@@,     
-      @@@@@@@@@@@      @@@@@@@@*   &@@@@@@  &@@@@@#  @@@@@@@*  (@@@@@@ .@@@@@@.@@@@   .@@@      @@@@@@. @@@@@@@ @@@@@@@@@       
-                                                                              @@@@                                              
-                                                                        @@@& #@@@                                               
-                                                                      @@@   (@@@                                                
-                                                                     @@%   @@@(                                                 
-                                                                     @@@@@@@*                                                   
+ Spring Boot Application  CALCULATOR 
+  made by Sealights                                    
+
+#  MP""""""`MMM""MMMMMMMMMM'""""'YMMMM""""""""`MMM"""""""`MMM""""""""M  M""""""'YMMMM""""""""`MM"""""`'"""`YMMMP"""""YMM 
+#  M  mmmmm..MM  MMMMMMMMM' .mmm. `MMM  mmmmmmmMMM  mmmm,  MMmmm  mmmM  M  mmmm. `MMM  mmmmmmmMM  mm.  mm.  MM' .mmm. `M 
+#  M.      `YMM  MMMMMMMMM  MMMMMooMM`      MMMMM'        .MMMMM  MMMM  M  MMMMM  MM`      MMMMM  MMM  MMM  MM  MMMMM  M 
+#  MMMMMMM.  MM  MMMMMMMMM  MMMMMMMMMM  MMMMMMMMMM  MMMb. "MMMMM  MMMM  M  MMMMM  MMM  MMMMMMMMM  MMM  MMM  MM  MMMMM  M 
+#  M. .MMM'  MM  MMMMMMMMM. `MMM' .MMM  MMMMMMMMMM  MMMMM  MMMMM  MMMM  M  MMMM' .MMM  MMMMMMMMM  MMM  MMM  MM. `MMM' .M 
+#  Mb.     .dMM         MMM.     .dMMM        .MMM  MMMMM  MMMMM  MMMM  M       .MMMM        .MM  MMM  MMM  MMMb     dMM 
+#  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
+#                                                                                                                        
